@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="400.0" spacing="30.0" style="-fx-background-color: #e1d6d6;" stylesheets="@../../cashier/refund.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.possystem.controllers.admin.products.AddQuantityController">
+    <children>
+        <VBox spacing="5.0">
+            <children>
+                <Label text="Nove zalihe za prozivod:">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+                <Label fx:id="productNameLabel" text="label">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+      <TextField fx:id="quantityTexField" maxWidth="200.0" prefHeight="26.0" prefWidth="150.0" promptText="Unesite količinu" />
+        <HBox alignment="CENTER" spacing="10.0">
+            <children>
+                <Button cancelButton="true" mnemonicParsing="false" styleClass="cancel-button" text="Odustani" onAction="#cancel" />
+                <Button defaultButton="true" mnemonicParsing="false" onAction="#saveChanges" styleClass="button-povrat" text="Spremi" />
+            </children>
+        </HBox>
+    </children>
+    <padding>
+        <Insets left="20.0" right="20.0" />
+    </padding>
+</VBox>

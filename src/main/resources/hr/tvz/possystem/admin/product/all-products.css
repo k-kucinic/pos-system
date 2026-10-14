@@ -1,0 +1,24 @@
+.table-view {
+    -fx-text-alignment: center;
+}
+.search-button{
+    -fx-padding: 6 6 6 6;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-background-color: #8d8383;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-border-width: 1px;
+    -fx-border-color: #676262;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+
+}
+.table-row-cell {
+    -fx-background-color: white;
+}
+.table-row-cell:filled:selected {
+    -fx-background-color: #657580;
+    -fx-text-fill: white;
+}

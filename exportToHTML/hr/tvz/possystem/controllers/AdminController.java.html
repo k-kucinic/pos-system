@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>AdminController.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #629755; font-style: italic;}
+.s2 { color: #629755; font-weight: bold; font-style: italic;}
+.s3 { color: #cc7832;}
+.s4 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+AdminController.java</font>
+</center></td></tr></table>
+<pre>
+    <span class="s1">/**</span>
+     <span class="s1">* Postavlja glavno korisničko sučelje u središnji dio BorderPanea.</span>
+     <span class="s1">* Poziva se iz različitih dijelova aplikacije, ovisno o tome koje</span>
+     <span class="s1">* sučelje treba otvoriti.</span>
+     <span class="s1">*</span>
+     <span class="s1">* </span><span class="s2">@param </span><span class="s1">path putanja do FXML datoteke sučelja koje treba otvoriti</span>
+     <span class="s1">*/</span>
+
+    <span class="s3">public void </span><span class="s0">openMainScreen(String path) {</span>
+        <span class="s3">try </span><span class="s0">{</span>
+            <span class="s0">FXMLLoader loader = </span><span class="s3">new </span><span class="s0">FXMLLoader(getClass().getResource(path))</span><span class="s3">;</span>
+            <span class="s0">Parent form = loader.load()</span><span class="s3">;</span>
+
+            <span class="s0">borderPane.setCenter(form)</span><span class="s3">;</span>
+
+        <span class="s0">} </span><span class="s3">catch </span><span class="s0">(IOException e) {</span>
+            <span class="s0">logger.error(e.getMessage())</span><span class="s3">;</span>
+        <span class="s0">}</span>
+    <span class="s0">}</span></pre>
+</body>
+</html>

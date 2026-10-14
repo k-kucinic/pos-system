@@ -1,0 +1,48 @@
+.combo-box {
+
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+    -fx-background-color: #cbbdbd;
+    -fx-prompt-text-fill: #807272;
+}
+
+.text-field {
+    -fx-background-color: #eee4e4;
+    -fx-prompt-text-fill: #807272;
+    -fx-text-fill: black;
+
+}
+
+.button {
+    -fx-padding: 6 6 6 6;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-background-color: #676262;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.button-cancel {
+    -fx-padding: 6 6 6 6;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-background-color: white;
+    -fx-text-fill: #676262;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-border-width: 1px;
+    -fx-border-color: #676262;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+.table-row-cell {
+    -fx-background-color: white;
+}

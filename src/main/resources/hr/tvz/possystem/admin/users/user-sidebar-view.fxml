@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="262.0" spacing="60.0" xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.possystem.controllers.admin.users.UserSidebarController"
+      stylesheets="@../sidebar.css">
+    <children>
+        <Button mnemonicParsing="false" text="Novi korisnik" onAction="#newUser"/>
+        <Button mnemonicParsing="false" text="Svi korisnici" onAction="#allUsers"/>
+
+    </children>
+</VBox>

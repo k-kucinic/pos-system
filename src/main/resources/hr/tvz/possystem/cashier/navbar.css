@@ -1,0 +1,26 @@
+.button {
+    -fx-background-color: #4f4a4a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-min-width: 80px;
+    -fx-border-radius: 25px;
+
+}
+
+.button:hover {
+    -fx-background-color: #3b3838;
+}
+.label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+.root{
+    -fx-background-color: #6c6666;
+}

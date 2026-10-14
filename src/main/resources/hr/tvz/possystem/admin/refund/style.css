@@ -1,0 +1,62 @@
+.reverse{
+
+    -fx-padding: 3px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-color: #645e5e;
+    -fx-border-width: 1px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-min-width: 80px;
+    -fx-border-radius: 5px;
+
+}
+
+.search{
+    -fx-background-color: #807676;
+    -fx-text-fill: white;
+    -fx-padding: 3px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-color: #645e5e;
+    -fx-border-width: 1px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-min-width: 80px;
+    -fx-border-radius: 5px;
+}
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-alignment: CENTER;
+}
+.table-row-cell:selected{
+    -fx-background-color: #b98282;
+}
+.close-button{
+    -fx-background-color: #c0b2b2;
+    -fx-text-fill: black;
+    -fx-padding: 3px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-color: #645e5e;
+    -fx-border-width: 1px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-min-width: 80px;
+    -fx-border-radius: 5px;
+}
+.show-button{
+    -fx-background-color: #7e7676;
+    -fx-text-fill: white;
+    -fx-padding: 3px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-color: #645e5e;
+    -fx-border-width: 1px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-min-width: 80px;
+    -fx-border-radius: 5px;
+
+
+}

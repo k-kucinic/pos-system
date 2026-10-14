@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>UserDAO.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #cf8e6d;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+UserDAO.java</font>
+</center></td></tr></table>
+<pre>
+
+    <span class="s1">public static </span><span class="s0">String getAdminPasswordHash</span><span class="s2">() {</span>
+        <span class="s1">final </span><span class="s0">String sql </span><span class="s2">= </span><span class="s3">&quot;SELECT password_hash FROM users JOIN user_roles ON &quot; </span><span class="s2">+</span>
+                <span class="s3">&quot;user_roles.role_id=users.id WHERE user_roles.role_id = 1 LIMIT 1;&quot;</span><span class="s2">;</span>
+        <span class="s1">try </span><span class="s2">(</span><span class="s0">Connection connection </span><span class="s2">= </span><span class="s0">connectToDatabase</span><span class="s2">();</span>
+             <span class="s0">PreparedStatement stmt </span><span class="s2">= </span><span class="s0">connection</span><span class="s2">.</span><span class="s0">prepareStatement</span><span class="s2">(</span><span class="s0">sql</span><span class="s2">)) {</span>
+
+            <span class="s0">ResultSet rs </span><span class="s2">= </span><span class="s0">stmt</span><span class="s2">.</span><span class="s0">executeQuery</span><span class="s2">();</span>
+            <span class="s1">if </span><span class="s2">(</span><span class="s0">rs</span><span class="s2">.</span><span class="s0">next</span><span class="s2">()) {</span>
+                <span class="s1">return </span><span class="s0">rs</span><span class="s2">.</span><span class="s0">getString</span><span class="s2">(</span><span class="s3">&quot;password_hash&quot;</span><span class="s2">);</span>
+            <span class="s2">}</span>
+        <span class="s2">} </span><span class="s1">catch </span><span class="s2">(</span><span class="s0">SQLException </span><span class="s2">| </span><span class="s0">IOException e</span><span class="s2">) {</span>
+            <span class="s0">logger</span><span class="s2">.</span><span class="s0">error</span><span class="s2">(</span><span class="s3">&quot;Greška pri dohvaćanju admin lozinke: &quot; </span><span class="s2">+ </span><span class="s0">e</span><span class="s2">.</span><span class="s0">getMessage</span><span class="s2">());</span>
+        <span class="s2">}</span>
+        <span class="s1">return null</span><span class="s2">;</span>
+    <span class="s2">}</span></pre>
+</body>
+</html>

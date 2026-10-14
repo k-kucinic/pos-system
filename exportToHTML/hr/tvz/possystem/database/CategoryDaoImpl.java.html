@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>CategoryDaoImpl.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #629755; font-style: italic;}
+.s2 { color: #629755; font-weight: bold; font-style: italic;}
+.s3 { color: #cc7832;}
+.s4 { color: #6a8759;}
+.s5 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+CategoryDaoImpl.java</font>
+</center></td></tr></table>
+<pre>
+
+
+    <span class="s1">/**</span>
+     <span class="s1">* {</span><span class="s2">@inheritDoc</span><span class="s1">}</span>
+     <span class="s1">*/</span>
+    <span class="s0">@Override</span>
+    <span class="s3">public </span><span class="s0">Optional&lt;Integer&gt; insertNewCategoryToDatabase(Category category) {</span>
+        <span class="s0">Optional&lt;Integer&gt; categoryId = Optional.empty()</span><span class="s3">;</span>
+        <span class="s3">try </span><span class="s0">(Connection connection = DatabaseUtil.connectToDatabase()) {</span>
+            <span class="s0">String insertCategoryString = </span><span class="s4">&quot;INSERT INTO categories(name, created_at, updated_at)&quot; </span><span class="s0">+</span>
+                    <span class="s4">&quot; VALUES(?,?,?)&quot;</span><span class="s3">;</span>
+            <span class="s0">PreparedStatement preparedStatement = connection.prepareStatement(insertCategoryString</span><span class="s3">,</span>
+                    <span class="s0">Statement.RETURN_GENERATED_KEYS)</span><span class="s3">;</span>
+            <span class="s0">preparedStatement.setString(</span><span class="s5">1</span><span class="s3">, </span><span class="s0">category.getName())</span><span class="s3">;</span>
+            <span class="s0">preparedStatement.setTimestamp(</span><span class="s5">2</span><span class="s3">, </span><span class="s0">category.getCreatedAt())</span><span class="s3">;</span>
+            <span class="s0">preparedStatement.setTimestamp(</span><span class="s5">3</span><span class="s3">, </span><span class="s0">category.getUpdatedAt())</span><span class="s3">;</span>
+            <span class="s0">preparedStatement.executeUpdate()</span><span class="s3">;</span>
+            <span class="s0">ResultSet resultSet = preparedStatement.getGeneratedKeys()</span><span class="s3">;</span>
+
+            <span class="s3">if </span><span class="s0">(resultSet.next()) {</span>
+                <span class="s0">categoryId = Optional.of(resultSet.getInt(</span><span class="s5">1</span><span class="s0">))</span><span class="s3">;</span>
+            <span class="s0">}</span>
+            <span class="s3">return </span><span class="s0">categoryId</span><span class="s3">;</span>
+
+
+        <span class="s0">} </span><span class="s3">catch </span><span class="s0">(IOException | SQLException e) {</span>
+            <span class="s0">logger.error(e.getMessage())</span><span class="s3">;</span>
+            <span class="s3">return </span><span class="s0">Optional.empty()</span><span class="s3">;</span>
+        <span class="s0">}</span>
+
+    <span class="s0">}</span></pre>
+</body>
+</html>

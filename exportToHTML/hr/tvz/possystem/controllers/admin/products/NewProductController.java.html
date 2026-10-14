@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>NewProductController.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #cc7832;}
+.s2 { color: #6897bb;}
+.s3 { color: #629755; font-style: italic;}
+.s4 { color: #629755; font-weight: bold; font-style: italic;}
+.s5 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+NewProductController.java</font>
+</center></td></tr></table>
+<pre>
+
+
+        <span class="s0">categoryComboBox.setEditable(</span><span class="s1">true</span><span class="s0">)</span><span class="s1">;</span>
+        <span class="s0">categoryComboBox.setOnAction(event -&gt; {</span>
+            <span class="s0">Object selected = categoryComboBox.getValue()</span><span class="s1">;</span>
+
+            <span class="s1">if </span><span class="s0">(selected </span><span class="s1">instanceof </span><span class="s0">Category selectedCategory &amp;&amp; selectedCategory.getId() == -</span><span class="s2">1</span><span class="s0">) {</span>
+                
+                <span class="s0">categoryComboBox.getSelectionModel().clearSelection()</span><span class="s1">;</span>
+                <span class="s0">categoryComboBox.getEditor().clear()</span><span class="s1">;</span>
+                <span class="s0">categoryComboBox.getEditor().requestFocus()</span><span class="s1">;</span>
+            <span class="s0">}</span>
+        <span class="s0">})</span><span class="s1">;</span></pre>
+</body>
+</html>

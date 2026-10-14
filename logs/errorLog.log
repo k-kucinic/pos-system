@@ -1,0 +1,900 @@
+2025-05-28 10:32:31,745 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:32:31,746 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:32:58,749 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:32:58,750 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:34:31,543 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:34:31,544 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:35:48,525 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:35:48,527 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:36:33,337 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:36:33,340 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:40:26,322 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:40:26,324 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:42:01,294 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:42:01,295 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 10:43:06,727 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:33] yoo
+2025-05-28 10:43:06,728 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:34] nešto ne valjaaaa
+
+2025-05-28 11:02:46,170 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-28 11:02:46,173 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-28 11:03:59,740 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-28 11:03:59,742 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-28 11:05:12,137 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-28 11:05:12,140 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-28 11:13:12,116 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-28 11:13:12,120 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-28 11:14:26,326 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-28 11:14:26,328 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-28 11:17:30,617 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-28 11:17:30,620 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-28 11:17:50,706 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:100] An error occurred while saving data to the database!
+java.sql.SQLException: Parameter index out of range (5 > number of parameters, which is 4).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setTimestamp(ClientPreparedStatement.java:1735)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:86)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 01:49:59,612 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 01:49:59,618 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 01:50:17,739 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:100] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2-2' for key 'user_roles.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:94)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 08:42:38,396 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 08:42:38,398 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 08:43:58,142 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 08:43:58,142 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 08:55:21,423 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 08:55:21,425 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 08:55:43,558 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:102] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'blagajnik3' for key 'users.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:87)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:09:16,037 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:09:16,037 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:09:26,712 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:106] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`pos_system`.`user_roles`, CONSTRAINT `user_roles_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:98)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:10:18,514 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:10:18,516 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:13:38,416 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:106] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`pos_system`.`user_roles`, CONSTRAINT `user_roles_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:98)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:21:25,836 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:21:25,837 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:21:50,037 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:112] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`pos_system`.`user_roles`, CONSTRAINT `user_roles_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:104)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:23:37,289 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:23:37,291 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:25:22,183 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:25:22,184 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:25:49,286 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:113] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`pos_system`.`user_roles`, CONSTRAINT `user_roles_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:105)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:27:05,000 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:27:05,002 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:27:41,598 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:113] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'blagajnik6' for key 'users.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:87)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:29:25,103 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:29:25,104 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:31:00,455 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:113] An error occurred while saving data to the database!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`pos_system`.`user_roles`, CONSTRAINT `user_roles_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at hr.tvz.possystem/hr.tvz.possystem.database.DatabaseUtil.addUserToDatabase(DatabaseUtil.java:105)
+	at hr.tvz.possystem/hr.tvz.possystem.controllers.NewUserController.register(NewUserController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-29 09:33:15,167 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:33:15,169 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:53:17,248 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:53:17,252 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 09:56:00,550 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:35] yoo
+2025-05-29 09:56:00,553 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosSystemApplication.java:36] nešto ne valjaaaa
+
+2025-05-29 12:50:14,761 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [DatabaseUtil.java:146] Column 'nameh' not found.
+2025-07-07 14:24:03,872 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:113] Error resolving onAction='addProduct()', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:11
+
+2025-07-07 14:24:06,676 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:113] Error resolving onAction='addProduct()', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:11
+
+2025-07-07 14:26:15,618 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:113] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:8
+
+2025-07-07 14:26:18,586 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:113] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:8
+
+2025-07-07 14:29:05,516 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:113] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:8
+
+2025-07-07 14:29:08,598 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:113] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:8
+
+2025-07-11 15:40:30,805 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [RefundsController.java:152] Greška kod otvaranja dijaloga: 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/refund-quantity.fxml:24
+
+2025-07-11 15:40:39,628 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [RefundsController.java:152] Greška kod otvaranja dijaloga: 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/refund-quantity.fxml:24
+
+2025-07-11 15:40:46,907 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [RefundsController.java:152] Greška kod otvaranja dijaloga: 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/refund-quantity.fxml:24
+
+2025-07-18 15:45:43,474 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:117] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/login-novi.fxml
+
+2025-07-21 14:52:40,977 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:127] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/admin-view.fxml:10
+
+2025-07-21 14:54:00,310 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:127] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/admin-view.fxml:10
+
+2025-07-21 20:23:49,902 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:127] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/admin-view.fxml
+
+2025-07-21 20:30:25,593 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:127] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/admin-view.fxml
+
+2025-07-21 20:38:15,048 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:43] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 20:38:25,362 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:43] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 20:40:02,049 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:43] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 21:01:56,417 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:43] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 21:10:49,844 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:43] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 21:11:29,355 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:43] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 21:21:25,361 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:46] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-21 21:26:56,205 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:46] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml:7
+
+2025-07-22 21:08:36,857 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:50] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml
+
+2025-07-22 21:08:45,164 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:50] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml
+
+2025-07-22 21:26:21,304 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:54] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/product/product-sidebar-view.fxml
+
+2025-07-23 11:14:35,422 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [ProductController.java:81] Neispravan unos cijene: Character f is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2025-07-25 14:25:45,921 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:31] Ne mogu učitati navbar: 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+
+2025-07-31 12:45:34,209 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [LoginController.java:127] Error resolving onAction='#cancel', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/cashier/cashier-view.fxml:125
+
+2025-07-31 23:14:21,108 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [RefundsDao.java:120] Column 'proccessed_by' not found.
+2025-08-04 11:58:06,848 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:31] Ne mogu učitati navbar: 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+
+2025-08-05 10:46:15,578 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDao.java:118] d != java.lang.String
+2025-08-05 10:46:41,732 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDao.java:118] d != java.lang.String
+2025-08-05 18:51:42,124 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [UserDAO.java:273] Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-08-05 18:51:48,869 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [UserDAO.java:273] Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-08-07 12:22:34,440 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDao.java:81] Nema dovoljno zaliha za proizvod: Chips Paprika 150g
+2025-08-09 16:00:35,061 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [ProductDaoImpl.java:281] Duplicate entry '1234567890123' for key 'products.barcode'
+2025-08-09 16:06:50,932 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [ProductDaoImpl.java:281] java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1234567890123' for key 'products.barcode'
+2025-08-09 17:28:39,000 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:310] java.sql.SQLException: Column 'sale_item_id' not found.
+2025-08-09 17:28:43,078 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:310] java.sql.SQLException: Column 'sale_item_id' not found.
+2025-08-13 10:31:58,913 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:162] Neispravan unos cijene: Character , is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2025-08-13 10:32:33,530 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:162] Neispravan unos cijene: Character d is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2025-08-13 10:32:33,531 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:185] Neispravan unos količine: For input string: "dd"
+2025-08-13 10:33:22,196 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:162] Neispravan unos cijene: Character d is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2025-08-13 10:33:22,196 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:185] Neispravan unos količine: For input string: "dd"
+2025-08-13 10:46:58,790 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:45] Root value already specified.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+
+2025-08-13 17:33:16,536 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:176] Neispravan unos popusta: Character w is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2025-08-13 17:33:16,543 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:185] Neispravan unos količine: For input string: "e"
+2025-08-13 17:33:26,326 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:176] Neispravan unos popusta: Character w is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2025-08-13 17:33:26,326 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [NewProductController.java:185] Neispravan unos količine: For input string: "e"
+2025-08-19 10:25:10,777 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AllSalesController.java:178] Greška printera: Flags = ' '
+2025-08-19 10:30:29,128 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AllSalesController.java:178] Greška printera: Flags = ' '
+2025-08-19 10:41:29,824 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [PosReceiptPrinter.java:131] Greška printera za postotak 25: Conversion = ':'
+2025-08-19 12:26:53,769 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:45] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+
+2025-08-19 12:28:11,131 ERROR [JavaFX Application Thread] h.t.p.d.DatabaseUtil [AdminController.java:45] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/sesti%20semestar/zavrsni/pos-system/target/classes/hr/tvz/possystem/admin/navbar.fxml
+
+2025-08-20 12:56:34,791 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:144] Fiscalization queued id=1 sale=75
+2025-08-20 14:09:47,078 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:145] Fiscalization queued id=2 sale=80
+2025-08-21 10:20:41,599 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:144] Fiscalization queued id=3 sale=81
+2025-08-21 10:20:41,758 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:156] Fiscalization FAILED: HTTP 500: <?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><tns:RacunOdgovor Id="G0x7fe67c69dd00-4D" xsi:schemaLocation="http://www.apis-it.hr/fin/2012/types/f73 ../schema/FiskalizacijaSchema.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://www.apis-it.hr/fin/2012/types/f73"><tns:Zaglavlje><tns:IdPoruke>f35e06dc-0f30-4853-9535-5299ec551398</tns:IdPoruke><tns:DatumVrijeme>21.08.2025T10:20:41</tns:DatumVrijeme></tns:Zaglavlje><tns:Greske><tns:Greska><tns:SifraGreske>s004</tns:SifraGreske><tns:PorukaGreske>Neispravan digitalni potpis.</tns:PorukaGreske></tns:Greska></tns:Greske><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+  <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+  <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <Reference URI="#G0x7fe67c69dd00-4D">
+    <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    </Transforms>
+    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <DigestValue>H2HTOHTl6WYmhBr9jwxdmlIhBdw=</DigestValue>
+  </Reference>
+</SignedInfo>
+    <SignatureValue>Z8g4AXlW2D8CiCcsaKkElnyCEuet+PyKylcwZieb6q3CYr9ic7kft5pqsw11fLkS7kDY2EVOJTxkBMAT0ZLbsckSjo/qWoN9pobK1xNCd9qRnFZugI/9HTa83rGDMsMBqZoHa6N+LZSBHw+FxMwcbDs2cvbRqaZugmJq+YnmosEdtOpa8qYIOK6BAQqbluiykO30cPMUhjKXc5ACKrYz0ElHgn7RFSWhW0wZoWB2Y8D0G7aSDCVUbPHb6iEs9fYK9NWbOMDXHNOBIOl5k1k9cKt89yVnUd5R7XcujOO1KfUQWl4HDYzVYKHcb5M2Bp6z+GRxQCcEzT3GKhrVjhFMtQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate><X509IssuerSerial><X509IssuerName>CN=Fina Demo CA 2020, O=Financijska agencija, C=HR</X509IssuerName><X509SerialNumber>325450325973957308031939306065516468253</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></tns:RacunOdgovor></soap:Body></soap:Envelope>
+2025-08-21 10:37:16,078 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:144] Fiscalization queued id=4 sale=82
+2025-08-21 10:37:16,261 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:156] Fiscalization FAILED: HTTP 500: <?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><tns:RacunOdgovor Id="G0x7fe67fec8900-4D" xsi:schemaLocation="http://www.apis-it.hr/fin/2012/types/f73 ../schema/FiskalizacijaSchema.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://www.apis-it.hr/fin/2012/types/f73"><tns:Zaglavlje><tns:IdPoruke>cd7250d5-e92e-4154-a310-255b8c6d707c</tns:IdPoruke><tns:DatumVrijeme>21.08.2025T10:37:16</tns:DatumVrijeme></tns:Zaglavlje><tns:Greske><tns:Greska><tns:SifraGreske>s004</tns:SifraGreske><tns:PorukaGreske>Neispravan digitalni potpis.</tns:PorukaGreske></tns:Greska></tns:Greske><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+  <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+  <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <Reference URI="#G0x7fe67fec8900-4D">
+    <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    </Transforms>
+    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <DigestValue>H+TxcXCT43nslJEN8tMtr/WwGD8=</DigestValue>
+  </Reference>
+</SignedInfo>
+    <SignatureValue>hp7OREc5b9hFIvdX6WgWlyULqIXmeR4n57VQJH+dro1gWfUmbkRRcui593+2qrwTzjqOUUeHtucmTmNcyt/d4uoVogrWm2jjAJM2F1lyaWDbMLOVnXC+H/QGsDBRSxD7tcFrToTOoiu0CuZlGJEN31EWVyHsK2BCy+wkv7/GUAtMR64dOi9c4+cIF/xDoxzZnJz2pqBDkJshXTBSdPAliQSSK0a4ENbAJz9oRUjmrzfObE15PLII1+fmo4KOP7eXx4hWJHg16eMXm8komPYMof1DmoavydKMARiru5B7qww3nrzCXqZLDb6NLeuZli9NVMdBiW6HOiuT/w3XmY+vzg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate><X509IssuerSerial><X509IssuerName>CN=Fina Demo CA 2020, O=Financijska agencija, C=HR</X509IssuerName><X509SerialNumber>325450325973957308031939306065516468253</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></tns:RacunOdgovor></soap:Body></soap:Envelope>
+2025-08-24 17:29:46,745 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:193] Fiscalization FAILED: HTTP 500: <?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:tns="http://www.apis-it.hr/fin/2012/types/f73" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><tns:Odgovor Id="G0x7fe696058100-4D" xsi:schemaLocation="http://www.apis-it.hr/fin/2012/types/f73 ../schema/FiskalizacijaSchema.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><tns:Zaglavlje><tns:DatumVrijeme>24.08.2025T17:29:44</tns:DatumVrijeme></tns:Zaglavlje><tns:Greske><tns:Greska><tns:SifraGreske>s006</tns:SifraGreske><tns:PorukaGreske>Sistemska pogre&#353;ka prilikom obrade zahtjeva.</tns:PorukaGreske></tns:Greska></tns:Greske><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+  <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+  <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <Reference URI="#G0x7fe696058100-4D">
+    <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    </Transforms>
+    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <DigestValue>03/S46Bg6OXesZguGx6gue4jIOc=</DigestValue>
+  </Reference>
+</SignedInfo>
+    <SignatureValue>O7tFun5IXG/eEqmZkNUrqOeTyKd4wXOcYbKc0vS432mEOQw9MkOtqxb0tXzteIlxHJSPvLSzioxRPQwkP0br0/FxEEjhAFvvKmeE4uHfMEGUbkrm8gw8e5hfwAI6VG0eX06u2LVLCHZ6nqICMrdtXYO+yWi9rZYQGwECS4ah4faqS7GMdbvXVSCvrq4cZHlXjNJEeOoJ6Y2AqUfmVDwHV9iixObQowWgWyL8OBVidGf31UzyglRP68cd192j+GbmXRzBHnDa/Z9wprjgi7OQEq5SCGiQGC1QXm69V+uVcoyrC6FvdfMHF8Lbwhe2JRim/OWfeRXq3m9P5gpONLtJaw==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate><X509IssuerSerial><X509IssuerName>CN=Fina Demo CA 2020, O=Financijska agencija, C=HR</X509IssuerName><X509SerialNumber>325450325973957308031939306065516468253</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></tns:Odgovor></soap:Body></soap:Envelope>
+2025-08-24 17:34:10,822 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:190] Fiscalization OK, JIR=null
+2025-08-24 17:54:17,741 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:190] Fiscalization OK, JIR=null
+2025-08-24 17:58:58,286 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:191] Fiscalization OK, JIR=null
+2025-08-24 18:06:15,638 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:191] Fiscalization OK, JIR=null
+2025-08-24 20:22:14,165 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:229] Fiscalization FAIL: parse-error: javax.xml.transform.TransformerException: JAXP0801002: the compiler encountered an XPath expression containing '101' operators that exceeds the '100' limit set by 'jaxp.properties'. [CIS]
+2025-08-24 22:03:31,568 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:229] Fiscalization FAIL: s002: Certifikat nije izdan od strane demo potpisnika pouzdanog izdavatelja certifikata u RH ili je istekao ili je ukinut. [CIS]
+2025-08-24 22:08:14,348 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:229] Fiscalization FAIL: s002: Certifikat nije izdan od strane demo potpisnika pouzdanog izdavatelja certifikata u RH ili je istekao ili je ukinut. [CIS]
+2025-08-24 22:10:57,853 WARN [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:228] Fiscalization FAIL: s006: Sistemska pogreška prilikom obrade zahtjeva. (XML verify failed) [LOCAL]
+2025-08-24 22:39:50,715 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:191] Fiscalization OK, JIR=null
+2025-08-24 22:46:29,983 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:170] Local signature verification OK for saleId=93
+2025-08-24 22:46:30,037 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:183] LOCAL fiscalization OK, JIR=33a16882bc5e3664b63721b9ebb3cf02
+2025-08-25 12:23:29,695 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=94
+2025-08-25 12:23:29,726 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=e4b7a8497ce519b1567e406a87e7827a
+2025-08-25 12:25:20,560 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=95
+2025-08-25 12:25:20,586 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=80d9c637611eea605a08eca7d9704da4
+2025-08-27 17:00:18,711 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=97
+2025-08-27 17:00:18,731 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=17cbd9a3ae3c1ed9e38747d7da261fe6
+2025-08-27 17:03:33,687 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=98
+2025-08-27 17:03:33,708 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=464e696a249d9253d6eddb7bc52f9f78
+2025-08-27 17:06:37,935 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=99
+2025-08-27 17:06:37,953 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=eea44c51c11adf4c3ecb65beb56f1339
+2025-08-27 17:08:14,894 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=100
+2025-08-27 17:08:14,914 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=e76166e04d17a0d71bdbb80a9a081393
+2025-08-27 17:09:21,370 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=101
+2025-08-27 17:09:21,385 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=3fbef3eb5ae9e0680f1fc72e2d373799
+2025-08-27 17:10:47,519 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=102
+2025-08-27 17:10:47,540 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=4af4b987b13a4322a45c7d3aa598c571
+2025-08-27 17:14:42,469 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=103
+2025-08-27 17:14:42,484 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=f51123de19c674feae459fa6449f084a
+2025-08-27 17:15:19,431 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=104
+2025-08-27 17:15:19,472 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=15f1ef8c32b3d971fb10261caea436bb
+2025-08-27 17:16:26,794 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=105
+2025-08-27 17:16:26,807 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=8875758f371715862431f5d92ddb64b3
+2025-08-27 17:18:13,749 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=106
+2025-08-27 17:18:13,775 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=8b85488986847c2e6561da4a34b65a8d
+2025-08-27 17:19:52,715 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=107
+2025-08-27 17:19:52,728 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=612ea407cda5940c278decd350fdde80
+2025-08-27 17:21:58,636 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=108
+2025-08-27 17:21:58,656 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=8b669815084bcf07aaf4ff5b9ef5c7a0
+2025-08-27 17:23:04,378 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=109
+2025-08-27 17:23:04,407 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=95667de2e13140bf04371c0177c90cae
+2025-08-27 17:24:51,205 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=110
+2025-08-27 17:24:51,227 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=61731c6d19cef31b9c89f4c71a2128dd
+2025-08-27 17:30:29,693 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=112
+2025-08-27 17:30:29,714 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=15d6672ecb286d22161c80e10c0865e4
+2025-08-27 19:16:42,218 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:172] Local signature verification OK for saleId=115
+2025-08-27 19:16:42,245 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:186] LOCAL fiscalization OK, JIR=ab8f391f34e913c926ee2c9d49228a13
+2025-08-28 09:30:06,319 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=3b4d5ab947866743e64a0b6f4d8d62c5
+2025-08-28 09:38:28,047 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=65e2e9ad7fd53d16d9952069d76c9e81
+2025-08-28 09:39:43,589 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=8a78c4b31119a8492a3f78bf9d409d32
+2025-08-28 09:39:53,801 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=bbffb116ea6419e637c9593d64d66735
+2025-08-28 23:24:20,501 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=9bd48192b55a3de6c4f0499d5184cb9d
+2025-10-25 16:21:08,410 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=a4e1bc246bedf51f80649c0d381b7916
+2025-10-25 16:28:21,525 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=244f9410a3fde8a61ce786d4451cba03
+2025-10-25 18:01:23,126 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:192] LOCAL fiscalization OK, JIR=2cec36eb360aca69f1342407d6057623
+2026-01-05 13:50:22,747 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=b2a693bf93310690aaafc7c965048d08
+2026-01-05 13:51:11,082 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=4325e5075a7bda1c740ef7e1d406b370
+2026-01-05 13:53:17,775 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=0a549f61bec280a924976a1ff17f8a2f
+2026-01-05 14:27:22,655 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=bc1d8777d99f40ff76b8e648b62c9598
+2026-01-10 12:30:04,285 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=c8b56a14f322134705b1f1df78e32052
+2026-01-11 16:18:50,064 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=4e6c032d4bac973fa9b7a2aad9667dbe
+2026-01-12 03:49:53,206 INFO [JavaFX Application Thread] h.t.p.d.DatabaseUtil [SaleDaoImpl.java:187] LOCAL fiscalization OK, JIR=be4f936686d7c08ebe2d360a61d958162512e8cedd5ef42d048edd91ee274c3e

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="212.0" prefWidth="350.0" spacing="20" style="-fx-background-color: #e1d6d6;" stylesheets="@refund.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.possystem.controllers.RefundQuantityController">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Količina za povrat" />
+
+    <Label text="Unesite količinu za povrat:" />
+
+    <Spinner fx:id="quantityToReturn" />
+
+    <HBox alignment="CENTER" spacing="10">
+        <Button fx:id="returnButton" onAction="#returnQuantity" styleClass="button-povrat" text="Vrati" />
+        <Button fx:id="returnAllButton" onAction="#returnAll" styleClass="button-povrat" text="Vrati sve" />
+        <Button fx:id="cancelButton" onAction="#close" styleClass="cancel-button" text="Odustani" />
+    </HBox>
+</VBox>

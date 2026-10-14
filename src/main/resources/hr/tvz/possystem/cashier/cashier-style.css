@@ -1,0 +1,74 @@
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #aaa;
+    -fx-max-height: 150px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-table-cell-border-color: #e0e0e0;
+    -fx-font-size: 14px;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-min-height: 30px;
+
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #92989a;
+}
+
+.table-column-header {
+    -fx-background-color: #f0f0f0;
+    -fx-font-weight: bold;
+    -fx-border-color: #ccc;
+    -fx-alignment: CENTER_LEFT;
+}
+
+
+.totalGrandLabel, .discountLabel, .total {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8 12 8 12;
+    -fx-background-radius: 5;
+    -fx-background-color: #4f4a4a;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #6a6666;
+}
+
+.button:pressed {
+    -fx-background-color: #3a3636;
+}
+
+.test {
+    -fx-background-color: #ccc1c1;
+}
+
+.removeProductButton{
+    -fx-font-size: 14px;
+    -fx-padding: 8 12 8 12;
+    -fx-background-radius: 5;
+    -fx-background-color: #d04545;
+    -fx-text-fill: white;
+
+}
+.finishSale-Button{
+    -fx-font-size: 14px;
+    -fx-padding: 8 12 8 12;
+    -fx-background-radius: 5;
+    -fx-background-color: #678c3a;
+    -fx-text-fill: white;
+}

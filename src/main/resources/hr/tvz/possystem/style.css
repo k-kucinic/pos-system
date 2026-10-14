@@ -1,0 +1,71 @@
+
+.text-field, .password-field {
+    -fx-background-color: #4f4a4a;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #3A3A3C;
+    -fx-border-width: 1;
+
+}
+
+.button {
+    -fx-background-color: #4f4a4a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25px;
+    -fx-padding: 8px 16px;
+    -fx-border-color: #282828;
+    -fx-border-width: 1px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 20px;
+    -fx-border-radius: 25px;
+
+}
+
+.button:hover {
+    -fx-background-color: #3b3838;
+}
+
+.root {
+    -fx-font-family: "Inter", system;
+    -fx-font-size: 14px;
+    -fx-background-color: #FFFFFF;
+}
+
+.labelError {
+    -fx-text-fill: #FF3B30;
+
+}
+
+.box {
+    -fx-background-color: #a49999;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-border-radius: 12px;
+    -fx-padding: 32px;
+    -fx-background-radius: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 15, 0.2, 0, 4);
+    -fx-max-width: 600px;
+    -fx-alignment: center;
+}
+.combo-box {
+
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+    -fx-background-color: #cbbdbd;
+    -fx-prompt-text-fill: #807272;
+}
+.button-add-new{
+    -fx-background-color: #5b5353;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25px;
+    -fx-padding: 8px 16px;
+    -fx-border-color: #282828;
+    -fx-border-width: 1px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 20px;
+    -fx-border-radius: 25px;
+}

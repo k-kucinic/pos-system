@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>PosReceiptPrinter.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #629755; font-style: italic;}
+.s2 { color: #629755; font-weight: bold; font-style: italic;}
+.s3 { color: #cc7832;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+PosReceiptPrinter.java</font>
+</center></td></tr></table>
+<pre>
+
+    <span class="s1">/**</span>
+     <span class="s1">* Ispisuje QR kod na POS termalnom pisaču koristeći ESC/POS naredbe.</span>
+     <span class="s1">* Zpisuje sadržaj QR koda u pisač preko predanog izlaznog toka.</span>
+     <span class="s1">*</span>
+     <span class="s1">* </span><span class="s2">@param </span><span class="s1">data tekstualni sadržaj koji se kodira u QR kod</span>
+     <span class="s1">* </span><span class="s2">@param </span><span class="s1">os   izlazni tok povezan s POS pisačem</span>
+     <span class="s1">* </span><span class="s2">@throws </span><span class="s1">IOException ako dođe do pogreške pri pisanju u izlazni tok</span>
+     <span class="s1">*/</span>
+    <span class="s3">private static void </span><span class="s0">printQrWithEscPos(String data</span><span class="s3">, </span><span class="s0">OutputStream os) </span><span class="s3">throws </span><span class="s0">IOException {</span>
+        <span class="s0">os.write(</span><span class="s3">new byte</span><span class="s0">[]{</span><span class="s4">0x1D</span><span class="s3">, </span><span class="s4">0x28</span><span class="s3">, </span><span class="s4">0x6B</span><span class="s3">, </span><span class="s4">0x04</span><span class="s3">, </span><span class="s4">0x00</span><span class="s3">, </span><span class="s4">0x31</span><span class="s3">, </span><span class="s4">0x41</span><span class="s3">, </span><span class="s4">0x32</span><span class="s3">, </span><span class="s4">0x00</span><span class="s0">})</span><span class="s3">;</span>
+        <span class="s0">os.write(</span><span class="s3">new byte</span><span class="s0">[]{</span><span class="s4">0x1D</span><span class="s3">, </span><span class="s4">0x28</span><span class="s3">, </span><span class="s4">0x6B</span><span class="s3">, </span><span class="s4">0x03</span><span class="s3">, </span><span class="s4">0x00</span><span class="s3">, </span><span class="s4">0x31</span><span class="s3">, </span><span class="s4">0x43</span><span class="s3">, </span><span class="s4">0x04</span><span class="s0">})</span><span class="s3">;</span>
+        <span class="s0">os.write(</span><span class="s3">new byte</span><span class="s0">[]{</span><span class="s4">0x1D</span><span class="s3">, </span><span class="s4">0x28</span><span class="s3">, </span><span class="s4">0x6B</span><span class="s3">, </span><span class="s4">0x03</span><span class="s3">, </span><span class="s4">0x00</span><span class="s3">, </span><span class="s4">0x31</span><span class="s3">, </span><span class="s4">0x45</span><span class="s3">, </span><span class="s4">0x31</span><span class="s0">})</span><span class="s3">;</span>
+
+        <span class="s3">byte</span><span class="s0">[] payload = data.getBytes(java.nio.charset.StandardCharsets.ISO_8859_1)</span><span class="s3">;</span>
+        <span class="s3">int </span><span class="s0">len = payload.length + </span><span class="s4">3</span><span class="s3">;</span>
+        <span class="s3">byte </span><span class="s0">pL = (</span><span class="s3">byte</span><span class="s0">) (len &amp; </span><span class="s4">0xFF</span><span class="s0">)</span><span class="s3">;</span>
+        <span class="s3">byte </span><span class="s0">pH = (</span><span class="s3">byte</span><span class="s0">) ((len &gt;&gt; </span><span class="s4">8</span><span class="s0">) &amp; </span><span class="s4">0xFF</span><span class="s0">)</span><span class="s3">;</span>
+        <span class="s0">os.write(</span><span class="s3">new byte</span><span class="s0">[]{</span><span class="s4">0x1D</span><span class="s3">, </span><span class="s4">0x28</span><span class="s3">, </span><span class="s4">0x6B</span><span class="s3">, </span><span class="s0">pL</span><span class="s3">, </span><span class="s0">pH</span><span class="s3">, </span><span class="s4">0x31</span><span class="s3">, </span><span class="s4">0x50</span><span class="s3">, </span><span class="s4">0x30</span><span class="s0">})</span><span class="s3">;</span>
+        <span class="s0">os.write(payload)</span><span class="s3">;</span>
+        <span class="s0">os.write(</span><span class="s3">new byte</span><span class="s0">[]{</span><span class="s4">0x1D</span><span class="s3">, </span><span class="s4">0x28</span><span class="s3">, </span><span class="s4">0x6B</span><span class="s3">, </span><span class="s4">0x03</span><span class="s3">, </span><span class="s4">0x00</span><span class="s3">, </span><span class="s4">0x31</span><span class="s3">, </span><span class="s4">0x51</span><span class="s3">, </span><span class="s4">0x30</span><span class="s0">})</span><span class="s3">;</span>
+
+        <span class="s0">os.flush()</span><span class="s3">;</span>
+    <span class="s0">}</span></pre>
+</body>
+</html>

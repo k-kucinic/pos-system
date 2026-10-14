@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" fillWidth="false" maxWidth="150.0" minWidth="150.0" prefHeight="400.0" prefWidth="150.0" spacing="60.0" stylesheets="@../sidebar.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.possystem.controllers.admin.products.ProductSidebarController">
+    <children>
+        <Button mnemonicParsing="false" onAction="#openAddNewProduct" text="Dodaj" />
+        <Button mnemonicParsing="false" onAction="#openAllProducts" text="Uredi" />
+    </children>
+</VBox>

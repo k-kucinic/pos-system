@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="30.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.possystem.controllers.admin.users.AllUsersController" stylesheets="@style-users.css">
+   <children>
+       <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="1022.0" spacing="10.0">
+           <children>
+               <TextField fx:id="searchTextField" onAction="#searchByUserName" prefHeight="26.0" prefWidth="179.0" />
+               <Button mnemonicParsing="false" onAction="#searchByUserName" styleClass="search-button" text="Traži" />
+           </children>
+       </HBox>
+      <TableView fx:id="usersTableView" maxWidth="-Infinity" prefHeight="288.0" prefWidth="534.0" VBox.vgrow="SOMETIMES">
+        <columns>
+          <TableColumn fx:id="idTableColumn" prefWidth="60.0" text="ID" />
+          <TableColumn fx:id="usernameTableColumn" prefWidth="131.20001220703125" text="username" />
+            <TableColumn fx:id="activeTableColumn" prefWidth="68.79998779296875" text="aktivan" />
+            <TableColumn fx:id="roleTableColumn" prefWidth="122.39996337890625" text="uloga" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="144.00006103515625" text="datum kreiranja" />
+        </columns>
+      </TableView>
+      <Button mnemonicParsing="false" text="Deaktivacija" onAction="#deactivateUser" styleClass="deactivate-button" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="29.0" left="29.0" right="29.0" top="29.0" />
+   </padding>
+</VBox>

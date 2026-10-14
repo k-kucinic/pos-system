@@ -1,0 +1,14 @@
+module:hr.tvz.possystem
+hr.tvz.possystem
+hr.tvz.possystem.authentication
+hr.tvz.possystem.constants
+hr.tvz.possystem.controllers
+hr.tvz.possystem.controllers.admin
+hr.tvz.possystem.controllers.admin.products
+hr.tvz.possystem.controllers.admin.refunds
+hr.tvz.possystem.controllers.admin.sales
+hr.tvz.possystem.controllers.admin.users
+hr.tvz.possystem.database
+hr.tvz.possystem.exceptions
+hr.tvz.possystem.model
+hr.tvz.possystem.printer
